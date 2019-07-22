@@ -7,7 +7,7 @@ def introduction_with_language(name, language)
 end
 
 def introduction_with_language_optional(name)
-  print "Hi, my name is #{name} and i am learning to program in #{"Ruby"}."
+  print "Hi, my name is #{name} and i am learning to program in #{"language"}."
 end
 
 def introduction_with_language_optional(language="default", name)
