@@ -8,10 +8,8 @@ end
 
 def introduction_with_language_optional(name, language = "Ruby")
   puts "Hi, my name is #{"Edwin"} and I am learning to program in #{"Ruby"}."
-  puts "Hi, my name is #{"Edwin"} and I am learning to program in #{"Python"}."
 end
 
-introduction_with_language_optional(name, language = "Ruby")
 
 def introduction_with_language_optional(language="Ruby", name)
   puts "Hi, my name is #{"Edwin"} and I am learning to program in #{"Python"}."
